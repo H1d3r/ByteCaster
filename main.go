@@ -5,7 +5,6 @@ import (
 	"bytecaster/encoding"
 	"bytecaster/encryption"
 	"bytecaster/output"
-	"fmt"
 	"log"
 	"os"
 )
@@ -46,8 +45,6 @@ func main() {
 
 	// Output format
 	output.Output(data, flags.OutputFormat)
-
-	fmt.Println()
 
 	os.Exit(0)
 }

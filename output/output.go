@@ -4,6 +4,7 @@ import (
 	"bytecaster/cli"
 	"fmt"
 	"log"
+	"os"
 	"strings"
 )
 
@@ -91,9 +92,7 @@ func (o *output) raw() {
 	/*
 		[Raw bytes]
 	*/
-	for _, b := range o.data {
-		fmt.Printf("%c", b)
-	}
+	os.Stdout.Write(o.data)
 }
 
 func (o *output) hex() {

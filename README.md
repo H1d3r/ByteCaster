@@ -8,7 +8,7 @@ It supports 3 encryption algorithms, 4 encoding / obfuscation algorithms and 14 
 
 ## Installation
 
-[Download the compiled binary](https://github.com/Print3M/ByteCaster/releases/tag/1.0.0) or compile Go source code.
+[Download the compiled binary](https://github.com/Print3M/ByteCaster/releases/latest) or compile Go source code.
 
 ## Usage
 

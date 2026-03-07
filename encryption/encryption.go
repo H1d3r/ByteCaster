@@ -38,6 +38,8 @@ func EncryptData(data []byte, algorithm string, key string) []byte {
 }
 
 func (e *encryptor) xor() {
+
+	// There's something wrong with it!
 	keyBytes := []byte(e.key)
 	e.output = make([]byte, len(e.input))
 
